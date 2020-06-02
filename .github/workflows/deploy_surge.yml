@@ -30,4 +30,4 @@ jobs:
       run: npm install -g surge
     
     - name: Run Surge
-      run: surge ./ bootcampgiactions.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./PIAIC-Web-Pages piaic_faizan.surge.sh --token ${{secrets.SURGE_TOKEN}}
